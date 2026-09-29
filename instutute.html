@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Institutional Construction Project | Civil Engineer Harish</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,Helvetica,sans-serif}
+
+.header{
+    position:sticky;
+    top:0;
+    width:100%;
+    padding:15px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:rgba(196, 220, 241, 0.9);
+    backdrop-filter:blur(10px);
+    box-shadow:0 4px 15px rgba(0,0,0,0.08);
+    z-index:1000;
+}
+.logo{
+    text-decoration:none;
+    font-size:30px;
+    font-weight:bold;
+    color:#0b6178;
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+.helmet-icon{
+    width:60px;
+    height:70px;
+    object-fit:contain;
+    background:transparent;
+    border-radius:0;
+    padding:0;
+    box-shadow:none;
+    transition:0.3s;
+}
+.back{
+    text-decoration:none;
+    color:#fff;
+    background:#0F4C81;
+    padding:10px 20px;
+    border-radius:40px;
+    font-weight:bold;
+    box-shadow:0 4px 10px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+.back:hover{
+    background:#08395f;
+    transform:translateY(-2px);
+}
+body{background:#f4f7f9;color:#222;line-height:1.7}
+
+
+
+.hero{height:360px;background:url('institutional1.jpg') center/cover;position:relative}
+.overlay{position:absolute;inset:0;background:rgba(15,76,129,.72);display:flex;flex-direction:column;justify-content:center;align-items:center;color:#fff;text-align:center}
+.overlay h1{font-size:42px}.container{width:90%;max-width:1150px;margin:40px auto}
+.card{background:#fff;border-radius:18px;padding:30px;margin-bottom:25px;box-shadow:0 8px 20px rgba(0,0,0,.08)}
+.card h2{color:#0F4C81;border-left:6px solid #F4A261;padding-left:12px;margin-bottom:15px}
+.info-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.info-box{background:#fff;border-top:5px solid #F4A261;border-radius:15px;padding:25px;text-align:center;box-shadow:0 5px 15px rgba(0,0,0,.08)}
+.info-box h3{color:#0F4C81}.highlights{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:20px}
+.highlight{background:#0F4C81;color:#fff;border-radius:15px;padding:28px;text-align:center}.highlight h3{color:#F4A261;font-size:34px}
+.responsibility{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}.res-box{background:#eef5fb;border-left:5px solid #0F4C81;padding:18px;border-radius:10px}
+footer{background:#0F4C81;color:#fff;text-align:center;padding:25px;margin-top:40px}
+
+/* =========================================================
+   RESPONSIVE DESIGN - PROJECT DETAIL PAGES
+========================================================= */
+@media (max-width:768px){
+    .header{
+        padding:12px 15px !important;
+        gap:10px;
+        flex-wrap:wrap;
+    }
+    .logo{font-size:24px !important;}
+    .helmet-icon{width:50px;height:58px;}
+    .back{padding:8px 14px !important;font-size:13px;}
+    .hero{
+        height:300px !important;
+    }
+    .overlay h1,
+    .hero h1{
+        font-size:30px !important;
+        line-height:1.2;
+    }
+    .overlay p{
+        font-size:16px !important;
+    }
+    .container{
+        width:calc(100% - 24px) !important;
+        margin:25px auto !important;
+    }
+    .card{
+        padding:20px !important;
+        border-radius:14px;
+    }
+    .card h2{
+        font-size:21px;
+    }
+    .info-grid,
+    .highlights,
+    .responsibility{
+        grid-template-columns:1fr !important;
+        gap:14px;
+    }
+    .info-box,
+    .highlight,
+    .res-box{
+        padding:18px !important;
+    }
+    ul{
+        padding-left:18px;
+    }
+    footer{
+        font-size:12px;
+        padding:18px 10px !important;
+        text-align:center;
+    }
+}
+@media (max-width:480px){
+    .header{
+        justify-content:center;
+    }
+    .logo{
+        width:auto;
+        justify-content:center;
+        text-align:center;
+    }
+    .back{
+        width:auto;
+        text-align:center;
+    }
+    .hero{
+        height:260px !important;
+    }
+    .overlay h1,
+    .hero h1{
+        font-size:25px !important;
+    }
+    .overlay p{
+        font-size:14px !important;
+    }
+    .card{
+        padding:16px !important;
+    }
+    .card h2{
+        font-size:19px;
+    }
+}
+
+</style>
+</head>
+<body>
+<header class="header">
+
+    <a href="index.html" class="logo">
+        <img src="helmet.png" alt="White Safety Helmet" class="helmet-icon">
+        <span>Civil Engineer <b style="color:#070707;">HARISH</b></span>
+    </a>
+
+    <a href="index.html" class="back">← Back to Home</a>
+
+</header>
+<section class="hero"><div class="overlay"><h1>Institutional Construction Project</h1><p>₹15 Crores • Kolkata • 2025</p></div></section>
+<div class="container">
+<div class="card"><h2>Project Overview</h2><p>Successfully executed a <b>₹15 Crores worth Institutional Construction Project</b> comprising multiple academic and administrative blocks in Kolkata. The project involved complete site execution, subcontractor coordination, BOQ verification, quality inspections, client reporting and technical documentation while maintaining safety and construction quality standards.</p></div>
+<div class="info-grid">
+<div class="info-box"><h3>Project Value</h3><p>₹15 Crore</p></div>
+<div class="info-box"><h3>Location</h3><p>Kolkata, India</p></div>
+<div class="info-box"><h3>Year</h3><p>2025</p></div>
+<div class="info-box"><h3>Client</h3><p>Institutional Client</p></div>
+<div class="info-box"><h3>Role</h3><p>Client engineer,<br> Project co-ordinator</p></div>
+<div class="info-box"><h3>Project Type</h3><p>Institutional Buildings</p></div>
+</div>
+<br>
+<div class="card"><h2>Scope of Work</h2><ul><li>Execution of complete multi-block institutional building.</li><li>Daily planning and monitoring of construction activities.</li><li>Coordination with subcontractors and project stakeholders.</li><li>BOQ verification and quantity measurement.</li><li>Quality inspections for RCC, masonry and finishing works.</li><li>Preparation of DPR, inspection reports and project documentation.</li><li>Client progress reporting and site coordination.</li></ul></div>
+<div class="card"><h2>Engineering Responsibilities</h2><div class="responsibility">
+<div class="res-box">Monitoring RCC reinforcement, shuttering and concreting activities.</div>
+<div class="res-box">Inspection of masonry, plastering and finishing works as per drawings.</div>
+<div class="res-box">Verification of material quantities with approved BOQ.</div>
+<div class="res-box">Conducting regular site inspections and followed up on qulaity, workmanship and rectification work.</div>
+<div class="res-box">Preparing daily progress reports and client documentation.</div>
+<div class="res-box">Coordinating subcontractors to achieve planned construction targets.</div>
+</div></div>
+<div class="card"><h2>Project Highlights</h2><div class="highlights">
+<div class="highlight"><h3>₹15Cr</h3><p>Project Value</p></div>
+<div class="highlight"><h3>5+</h3><p>Building Blocks</p></div>
+<div class="highlight"><h3>98%</h3><p>Quality Inspection</p></div>
+<div class="highlight"><h3>BOQ</h3><p>Verification</p></div>
+</div></div>
+<div class="card"><h2>Project Timeline</h2><p><b>2025 – Project Execution</b><br>Successfully managed construction execution from structural works to finishing activities, ensuring quality compliance, proper documentation and timely coordination with the client and subcontractors throughout the project duration.</p></div>
+<div class="card"><h2>Project Outcome</h2><p>The institutional project was executed with effective planning, systematic quality inspections and accurate BOQ verification. Regular client reporting, technical documentation and subcontractor coordination contributed to smooth project execution and high-quality construction delivery.</p></div>
+</div>
+<footer><h3>Civil Engineer Harish</h3><p>Institutional Construction Project • Kolkata • 2025</p></footer>
+</body></html>
